@@ -45,55 +45,7 @@
 //       <div className="md:ml-52 bg-[#f6f5f0]">
 //       <div className=" md:mr-10 max-w-6xl mx-auto  p-4 flex flex-col md:flex-row items-start gap-6">
 //         {/* section child 1 */}
-//         <div>
-//             {/* contact form */}
-//             <div>
-//               <CheckModal />
-//             </div>
-//         </div>
-//         {/* section child 2 */}
-//        <div className="flex flex-col justify-between items-center gap-2">
-//          {/*  child 1 */}
-//          <div className="flex flex-col md:flex-row justify-between items-center gap-8">
-//             <img src={contact} alt="" />
-//             {/*  grandchild 2 */}
-//         <div className="w-80 text-left">
-//           <p className="text-lg text-light">HOTEL FACILITY</p>
-//           <h1 className="text-3xl font-semibold ">Enjoy a Luxury <br /> Experience</h1>
-//           <p className="text-sm font-light">
-//             Experience unparalleled luxury with every detail tailored to
-//             perfection. From elegant accommodations to world-class amenities,
-//             indulge in a stay that promises ultimate comfort and style. 
-//             <br />
-//             <br />
-//             Whether
-//             relaxing in serene surroundings or enjoying personalized services,
-//             every moment is crafted to ensure an extraordinary, unforgettable
-//             experience of sophistication and luxury.
-//           </p>
-//              <div className='flex flex-row justify-start items-center gap-2 mt-4'>
-//                                   <img src={watch} alt="" />
-//                                   <div>
-//                                       <p>Book Now</p>
-//                                       <p>123456789</p>
-//                                   </div>
-//                               </div>
-//         </div>
-//          </div>
-        
-//         {/* child 3 */}
-//         <div className="flex justify-center items-center gap-2 my-6">
-//             <img className="size-12" src={mark} alt="" />
-//             <p className="text-2xl font-medium">Contact Us for incredible interiror & architect designs.</p>
-//         </div>
-//        </div>
-//       </div>
-//       </div>
-//     </div>
-//   );
-// };
 
-// export default ContactSection;
 
 
 import React from "react";
