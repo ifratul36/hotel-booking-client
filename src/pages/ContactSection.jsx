@@ -11,38 +11,6 @@
 // const ContactSection = () => {
 //   return (
 //     <div className="">
-//       {/* section 1 */}
-//       <div className="max-w-7xl mx-auto md:mr-10 flex flex-col md:flex-row justify-center items-start gap-4">
-//         {/* sec child 1 */}
-//         <div>
-//           {/* grand child 1 */}
-//           <div className="text-center">
-//             <p className="text-lg font-normal mb-3">Hotex Service</p>
-//             <h1 className="text-4xl font-semibold mb-3">Expert Team Persons</h1>
-//           </div>
-//           {/* grand child 2 */}
-//           <div className="flex flex-col md:flex-row justify-center items-center gap-2">
-//             {/* team1 */}
-//             <div className="w-[300px]">
-//               <img src={team1} className="" alt="" />
-//             </div>
-//             {/* team2 */}
-//             <div className="w-[300px]">
-//               <img src={team2} alt="" />
-//             </div>
-//             {/* team3 */}
-//             <div className="w-[300px]">
-//               <img src={team3} alt="" />
-//             </div>
-//           </div>
-//         </div>
-//         {/* sec child 1 */}
-//         <div>
-//           <img src={leaf} alt="" />
-//         </div>
-//       </div>
-//       {/* section 2 */}
-//       <div className="md:ml-52 bg-[#f6f5f0]">
 
 
 
