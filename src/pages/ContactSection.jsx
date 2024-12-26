@@ -43,8 +43,7 @@
 //       </div>
 //       {/* section 2 */}
 //       <div className="md:ml-52 bg-[#f6f5f0]">
-//       <div className=" md:mr-10 max-w-6xl mx-auto  p-4 flex flex-col md:flex-row items-start gap-6">
-//         {/* section child 1 */}
+
 
 
 
