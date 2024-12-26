@@ -7,7 +7,6 @@ import FeaturedSixRooms from "./FeaturedSixRooms";
 import NewsUpdate from "./NewsUpdate";
 import MapSection from "../components/MapSection";
 import Service from "./Service";
-import Review from "../components/Review";
 
 const Home = () => {
     return (
@@ -21,7 +20,6 @@ const Home = () => {
             <HotelStyle />
             <ContactSection />
             <Service />
-            <Review />
             
         </div>
     );

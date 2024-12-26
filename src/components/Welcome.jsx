@@ -16,8 +16,8 @@ const Welcome = () => {
         </p>
       </div>
       <div className="divider lg:w-96 mx-auto px-5">
-        {" "}
-        <img src={plant} alt="" />{" "}
+        
+        <img src={plant} alt="" />
       </div>
       <div className="flex flex-col lg:flex-row items-center justify-center gap-6 text-start mt-20 w-[80%] md:w-[100%] mx-auto">
         {/* card1 */}

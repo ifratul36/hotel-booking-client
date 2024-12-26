@@ -1,14 +1,15 @@
 import { useContext } from 'react'
 import { AuthContext } from '../providers/AuthProvider'
 import { Link } from 'react-router-dom'
+import logo from '../assets/logo.jpg'
 const Navbar = () => {
   const { user, logOut } = useContext(AuthContext)
   return (
     <div className='navbar bg-base-100 shadow-sm container px-4 mx-auto'>
       <div className='flex-1'>
         <Link to='/' className='flex gap-2 items-center'>
-          <img className='w-auto h-7' src="" alt='' />
-          <span className='font-bold'>Hotex</span>
+          <img className='w-auto h-12' src={logo} alt='' />
+          <span className=' text-lg font-bold'>HOTEX</span>
         </Link>
       </div>
       <div className='flex-none'>
