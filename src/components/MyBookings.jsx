@@ -2,10 +2,9 @@ import React, { useEffect, useState } from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import useAuth from "../hooks/useAuth";
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import toast from "react-hot-toast";
 import axios from "axios";
-import useAxiosSecure from "../aixos/useAxiosSecure";
 
 const MyBookings = () => {
   const { user } = useAuth(); // Assuming useAuth hook gives the logged-in user
@@ -14,19 +13,13 @@ const MyBookings = () => {
   const [arrivalDate, setArrivalDate] = useState(null);
   const [departureDate, setDepartureDate] = useState(null);
 
-  const axiosSecure = useAxiosSecure();
-
-  const { roomId } = useParams(); // /review-room/:roomId
-console.log(roomId);
 
   useEffect(() => {
     // Fetch bookings for the logged-in user using Axios
     const fetchBookings = async () => {
       try {
-        // const response = await axios.get(`${import.meta.env.VITE_API_URL}/booking_application`, {
-        //   withCredentials: true
-        // });
-        const response = await axiosSecure.get(`/booking_application`);
+        const response = await axios.get(`${import.meta.env.VITE_API_URL}/booking_application`);
+        
         const userBookings = response.data.filter(
           (booking) => booking.applicant_email === user.email
         );
@@ -37,7 +30,7 @@ console.log(roomId);
     };
 
     fetchBookings();
-  }, [axiosSecure, user.email]);
+  }, [ user.email]);
 
   const handleCancelBooking = async (bookingId, arrivalDate) => {
     // Get the current date

@@ -7,7 +7,7 @@ Hotel Booking Platform
 This project is a modern hotel booking platform designed to provide users with an easy and engaging way to discover and book hotel rooms. The platform features user authentication, room listings, booking capabilities, user reviews, and a clean, responsive design to ensure a seamless experience across all devices.
 
 ## Live URL:
-[Insert Live URL Here]  
+[https://hotel-booking-c61b7.web.app]  
 
 ## Key Features:
 - **Homepage**: Includes a dynamic banner, featured rooms, user reviews, and a map showing the hotel location.
@@ -20,7 +20,6 @@ This project is a modern hotel booking platform designed to provide users with a
 - **Navigation**: A navigation bar with links to Rooms, My Bookings, and Login/Register pages.
 - **404 Page**: Custom 404 page with an exciting design and a link to go back to the homepage.
 - **Responsive Design**: The website is fully responsive on mobile, tablet, and desktop.
-- **JWT Authentication**: Secure JWT token-based authentication to ensure private routes and secure booking.
 - **Firebase Integration**: Firebase used for user authentication and securing configuration keys.
 - **MongoDB Integration**: MongoDB used to store room data, bookings, and reviews.
 

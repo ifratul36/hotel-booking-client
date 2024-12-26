@@ -17,7 +17,7 @@ const Footer = () => {
           Home
         </NavLink>
         <NavLink
-          to="/maps"
+          to="/contact"
           className={({ isActive }) =>
             isActive ? "font-bold text-gray-900" : "hover:text-gray-700"
           }
@@ -49,7 +49,7 @@ const Footer = () => {
           My Books
         </NavLink>
         <NavLink
-          to="/checkout"
+          to="/myrooms"
           className={({ isActive }) =>
             isActive ? "font-bold text-gray-900" : "hover:text-gray-700"
           }

@@ -56,10 +56,7 @@ const Navbar = () => {
                 <Link to='/maps'>Maps</Link>
               </li>
               <li>
-                <Link to='/my-bids'>#</Link>
-              </li>
-              <li>
-                <Link to='/bid-requests'>#</Link>
+                <Link to='/contact'>contact</Link>
               </li>
               <li className='mt-2'>
                 <button

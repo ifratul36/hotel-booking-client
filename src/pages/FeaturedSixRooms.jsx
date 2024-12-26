@@ -8,7 +8,7 @@ const FeaturedSixRooms = () => {
   useEffect(() => {
     const fetchRooms = async () => {
       try {
-        const response = await fetch('http://localhost:3000/rooms');
+        const response = await fetch('https://hotel-booking-server-flax.vercel.app/rooms');
         const data = await response.json();
         setRooms(data);
       } catch (error) {
