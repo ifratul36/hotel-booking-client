@@ -6,11 +6,7 @@
 // import watch from '../assets/watch.jpg'
 // import mark from '../assets/mark.jpg'
 // import contact from '../assets/contact.jpg'
-// import CheckModal from "../components/CheckModal";
 
-// const ContactSection = () => {
-//   return (
-//     <div className="">
 
 
 
