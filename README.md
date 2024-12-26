@@ -8,7 +8,6 @@ This project is a modern hotel booking platform designed to provide users with a
 
 ## Live URL:
 [Insert Live URL Here]  
-(Ensure your website is deployed and the live URL is accessible)
 
 ## Key Features:
 - **Homepage**: Includes a dynamic banner, featured rooms, user reviews, and a map showing the hotel location.
@@ -35,7 +34,3 @@ This project is a modern hotel booking platform designed to provide users with a
 - `framer-motion`: For animations and transitions within the app.
 - `axios`: For making API requests to the server.
 
-## How to Run the Project Locally:
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
