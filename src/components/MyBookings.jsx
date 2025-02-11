@@ -161,7 +161,7 @@ const MyBookings = () => {
   };
 
   return (
-    <div className="container mx-auto px-6 py-6">
+    <div className="container mx-auto px-6 py-6 mt-20">
       <h2 className="text-2xl font-bold mb-4">My Bookings 🛌</h2>
 
       <div className="overflow-x-auto">
