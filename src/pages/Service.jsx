@@ -11,13 +11,13 @@ import roomservice from '../assets/bar.jpg';
 const Service = () => {
   return (
    <div className='bg-[#f6f5f0]'>
-    <div className='max-w-6xl mx-auto'>
+    <div className='lg:max-w-6xl  mx-auto '>
      <div className="service-section px-5 py-10 ">
       <h2 className="text-3xl font-bold text-center text-gray-800 mb-4">
         SERVICES
       </h2>
       <p className='text-sm font-normal w-[70%] mx-auto pb-8 text-center'>Enjoy premium services including free WiFi, air conditioning, private bathrooms, flat-screen TVs, room service, a complimentary mini-bar, a sparkling pool, and more, all tailored to ensure your comfort and satisfaction!</p>
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
         <div className="service-card text-center bg-white shadow-md rounded-lg p-4 hover:shadow-lg transition-shadow duration-300">
           <img
             src={wifi}

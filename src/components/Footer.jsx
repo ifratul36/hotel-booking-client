@@ -17,7 +17,7 @@ const Footer = () => {
           Home
         </NavLink>
         <NavLink
-          to="/contact"
+          to="/maps"
           className={({ isActive }) =>
             isActive ? "font-bold text-gray-900" : "hover:text-gray-700"
           }

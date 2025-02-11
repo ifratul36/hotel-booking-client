@@ -12,6 +12,7 @@ import RoomBookingModal from "../components/RoomBookingModal";
 import MapSection from "../components/MapSection";
 import ContactForm from "../components/ContactForm";
 import Review from "../components/Review";
+import AboutUs from "../components/AboutUs";
 
 const router = createBrowserRouter([
   {
@@ -36,7 +37,7 @@ const router = createBrowserRouter([
         element:  <PrivateRoute>
          <RoomDetailsPage />
          </PrivateRoute>,
-        loader: ({params}) => fetch(`http://localhost:3000/rooms/${params.id}`)
+        loader: ({params}) => fetch(`${import.meta.env.VITE_API_URL}/rooms/${params.id}`)
       },
       {
         path: "/mybooks",
@@ -51,6 +52,14 @@ const router = createBrowserRouter([
         element: (
           <PrivateRoute>
             <ContactForm />
+          </PrivateRoute>
+        ),
+      },
+      {
+        path: "/about",
+        element: (
+          <PrivateRoute>
+            <AboutUs />
           </PrivateRoute>
         ),
       },
